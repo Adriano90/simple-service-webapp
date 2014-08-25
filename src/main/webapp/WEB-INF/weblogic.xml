@@ -1,0 +1,9 @@
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+<!-- $Id: weblogic.xml,v 1.2 2014-02-24 13:28:07 alg-marverjo Exp $ -->
+<weblogic-web-app xmlns="http://www.bea.com/ns/weblogic/weblogic-web-app" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.bea.com/ns/weblogic/weblogic-web-app http://www.bea.com/ns/weblogic/weblogic-web-app/1.0/weblogic-web-app.xsd ">
+
+	<security-role-assignment>
+	   <role-name>accesoWSRest</role-name>
+	   <principal-name>UsuarioWSRest</principal-name>
+	</security-role-assignment>
+</weblogic-web-app>
